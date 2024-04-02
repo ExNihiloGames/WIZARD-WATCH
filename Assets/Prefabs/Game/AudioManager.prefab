@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2902793817346164728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3693722527695953572}
+  - component: {fileID: 714005852282370577}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3693722527695953572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2902793817346164728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &714005852282370577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2902793817346164728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f246c4ae5e19594891c93b96d4fdc3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicMixerGroup: {fileID: 358913944385590472, guid: 9a85fe4037b7a8e48a159f031b4a3955,
+    type: 2}
+  effectsMixerGroup: {fileID: 3680968653575669133, guid: 9a85fe4037b7a8e48a159f031b4a3955,
+    type: 2}
+  sounds:
+  - source: {fileID: 0}
+    clipName: Fire
+    audioType: 0
+    audioClip: {fileID: 8300000, guid: afa78f68414eac04c8915aacbd993388, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - source: {fileID: 0}
+    clipName: Paper0
+    audioType: 0
+    audioClip: {fileID: 8300000, guid: 4c5c62e31a7fe174ea07dcdca7e459d1, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - source: {fileID: 0}
+    clipName: Paper1
+    audioType: 0
+    audioClip: {fileID: 8300000, guid: 8f69f2febe0d9c54291b00157b85b73b, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - source: {fileID: 0}
+    clipName: Button
+    audioType: 0
+    audioClip: {fileID: 8300000, guid: 3261575bceadd9d42a73b8455baf9865, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - source: {fileID: 0}
+    clipName: Trap0
+    audioType: 0
+    audioClip: {fileID: 8300000, guid: c2c8878599abb804bafcd40f071d94ed, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - source: {fileID: 0}
+    clipName: Trap1
+    audioType: 0
+    audioClip: {fileID: 8300000, guid: 126bfeb96b36ea648b68dbb5d025afca, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - source: {fileID: 0}
+    clipName: Trap2
+    audioType: 0
+    audioClip: {fileID: 8300000, guid: af235b8812eb94c4bbe90ee0bbb3185a, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - source: {fileID: 0}
+    clipName: GameOver
+    audioType: 0
+    audioClip: {fileID: 8300000, guid: 049abe905d659e84ea596e73483d2ab5, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - source: {fileID: 0}
+    clipName: Heal
+    audioType: 0
+    audioClip: {fileID: 8300000, guid: e150314e3233494459e3b1d2b7a53eea, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - source: {fileID: 0}
+    clipName: Door
+    audioType: 0
+    audioClip: {fileID: 8300000, guid: f8e9d1cee90507d48bc3d3e66037baad, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - source: {fileID: 0}
+    clipName: Ice
+    audioType: 0
+    audioClip: {fileID: 8300000, guid: 7a60254e8edf38242bc697db3adc98f6, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - source: {fileID: 0}
+    clipName: Earth
+    audioType: 0
+    audioClip: {fileID: 8300000, guid: bbf289138cd8558479f64b780ae0367b, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - source: {fileID: 0}
+    clipName: Footstep
+    audioType: 0
+    audioClip: {fileID: 8300000, guid: 13b640b76fd69ef4ea430e63de5c5f23, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5

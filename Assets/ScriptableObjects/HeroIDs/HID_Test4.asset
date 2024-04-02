@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d29a7a07acac741aebd02e3bc976f8, type: 3}
+  m_Name: HID_Test4
+  m_EditorClassIdentifier: 
+  firstName: Aela
+  lastName: Ta'el
+  title: Ranger
+  portrait: {fileID: 21300000, guid: 31d5400a62ab21345b8d23b66c744d8d, type: 3}
+  age: 167
+  heroType: 0
+  faction: {fileID: 11400000, guid: a92bc636ddb783c42aa908718db6ab3d, type: 2}
